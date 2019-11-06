@@ -26,7 +26,7 @@ if (!Number.isInteger(number)) {
 
    else {
 
-     console.log("\nZero.")
+     console.log("\nEven.")
 
    }
 

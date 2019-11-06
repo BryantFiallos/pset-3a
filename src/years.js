@@ -12,3 +12,19 @@ if (!Number.isNaN(year)) {
         if (year%400==0) {
           console.log("\n" + year + " is a leap year.");
         }
+        else {
+          console.log("\n" + year + " is not a leap year.");
+        }
+      }
+    }
+    else {
+      console.log("\n" + year + " is not a leap year.");
+    }
+  }
+  else {
+    console.log("\nInvalid.");
+  }
+}
+else {
+    console.log("\nInvalid.");
+}

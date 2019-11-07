@@ -1,6 +1,6 @@
 const readlineSync = require("readline-sync");
 
-let grade = Number(readlineSync.question("\n Enter a grade: "));
+let grade = Number(readlineSync.question("\nEnter a grade: "));
 
 const AMinimum = 90;
 const AMaximum = 100;
